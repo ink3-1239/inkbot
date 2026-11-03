@@ -1,7 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "inkbot",
-  "main": "src/index.js",
+  "main": "index.js",
   "compatibility_date": "2025-09-01",
   "durable_objects": {
     "bindings": [{ "name": "BOT", "class_name": "BotRoom" }]
